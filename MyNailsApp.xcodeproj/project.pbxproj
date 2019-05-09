@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045B37B42284A1CF007D128B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B37B32284A1CF007D128B /* AppDelegate.swift */; };
+		045B37B62284A1CF007D128B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B37B52284A1CF007D128B /* ViewController.swift */; };
+		045B37B92284A1CF007D128B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B37B72284A1CF007D128B /* Main.storyboard */; };
+		045B37BB2284A1D0007D128B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045B37BA2284A1D0007D128B /* Assets.xcassets */; };
+		045B37BE2284A1D0007D128B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B37BC2284A1D0007D128B /* LaunchScreen.storyboard */; };
+		045B37C92284A1D0007D128B /* MyNailsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B37C82284A1D0007D128B /* MyNailsAppTests.swift */; };
+		045B37D42284A1D0007D128B /* MyNailsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B37D32284A1D0007D128B /* MyNailsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045B37C52284A1D0007D128B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045B37A82284A1CF007D128B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045B37AF2284A1CF007D128B;
+			remoteInfo = MyNailsApp;
+		};
+		045B37D02284A1D0007D128B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045B37A82284A1CF007D128B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045B37AF2284A1CF007D128B;
+			remoteInfo = MyNailsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045B37B02284A1CF007D128B /* MyNailsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNailsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B37B32284A1CF007D128B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045B37B52284A1CF007D128B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045B37B82284A1CF007D128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045B37BA2284A1D0007D128B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045B37BD2284A1D0007D128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045B37BF2284A1D0007D128B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B37C42284A1D0007D128B /* MyNailsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNailsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B37C82284A1D0007D128B /* MyNailsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNailsAppTests.swift; sourceTree = "<group>"; };
+		045B37CA2284A1D0007D128B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B37CF2284A1D0007D128B /* MyNailsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNailsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B37D32284A1D0007D128B /* MyNailsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNailsAppUITests.swift; sourceTree = "<group>"; };
+		045B37D52284A1D0007D128B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045B37AD2284A1CF007D128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37C12284A1D0007D128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37CC2284A1D0007D128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045B37A72284A1CF007D128B = {
+			isa = PBXGroup;
+			children = (
+				045B37B22284A1CF007D128B /* MyNailsApp */,
+				045B37C72284A1D0007D128B /* MyNailsAppTests */,
+				045B37D22284A1D0007D128B /* MyNailsAppUITests */,
+				045B37B12284A1CF007D128B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045B37B12284A1CF007D128B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045B37B02284A1CF007D128B /* MyNailsApp.app */,
+				045B37C42284A1D0007D128B /* MyNailsAppTests.xctest */,
+				045B37CF2284A1D0007D128B /* MyNailsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045B37B22284A1CF007D128B /* MyNailsApp */ = {
+			isa = PBXGroup;
+			children = (
+				045B37B32284A1CF007D128B /* AppDelegate.swift */,
+				045B37B52284A1CF007D128B /* ViewController.swift */,
+				045B37B72284A1CF007D128B /* Main.storyboard */,
+				045B37BA2284A1D0007D128B /* Assets.xcassets */,
+				045B37BC2284A1D0007D128B /* LaunchScreen.storyboard */,
+				045B37BF2284A1D0007D128B /* Info.plist */,
+			);
+			path = MyNailsApp;
+			sourceTree = "<group>";
+		};
+		045B37C72284A1D0007D128B /* MyNailsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				045B37C82284A1D0007D128B /* MyNailsAppTests.swift */,
+				045B37CA2284A1D0007D128B /* Info.plist */,
+			);
+			path = MyNailsAppTests;
+			sourceTree = "<group>";
+		};
+		045B37D22284A1D0007D128B /* MyNailsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				045B37D32284A1D0007D128B /* MyNailsAppUITests.swift */,
+				045B37D52284A1D0007D128B /* Info.plist */,
+			);
+			path = MyNailsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045B37AF2284A1CF007D128B /* MyNailsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B37D82284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsApp" */;
+			buildPhases = (
+				045B37AC2284A1CF007D128B /* Sources */,
+				045B37AD2284A1CF007D128B /* Frameworks */,
+				045B37AE2284A1CF007D128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNailsApp;
+			productName = MyNailsApp;
+			productReference = 045B37B02284A1CF007D128B /* MyNailsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045B37C32284A1D0007D128B /* MyNailsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B37DB2284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsAppTests" */;
+			buildPhases = (
+				045B37C02284A1D0007D128B /* Sources */,
+				045B37C12284A1D0007D128B /* Frameworks */,
+				045B37C22284A1D0007D128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045B37C62284A1D0007D128B /* PBXTargetDependency */,
+			);
+			name = MyNailsAppTests;
+			productName = MyNailsAppTests;
+			productReference = 045B37C42284A1D0007D128B /* MyNailsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045B37CE2284A1D0007D128B /* MyNailsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B37DE2284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsAppUITests" */;
+			buildPhases = (
+				045B37CB2284A1D0007D128B /* Sources */,
+				045B37CC2284A1D0007D128B /* Frameworks */,
+				045B37CD2284A1D0007D128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045B37D12284A1D0007D128B /* PBXTargetDependency */,
+			);
+			name = MyNailsAppUITests;
+			productName = MyNailsAppUITests;
+			productReference = 045B37CF2284A1D0007D128B /* MyNailsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045B37A82284A1CF007D128B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					045B37AF2284A1CF007D128B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					045B37C32284A1D0007D128B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 045B37AF2284A1CF007D128B;
+					};
+					045B37CE2284A1D0007D128B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 045B37AF2284A1CF007D128B;
+					};
+				};
+			};
+			buildConfigurationList = 045B37AB2284A1CF007D128B /* Build configuration list for PBXProject "MyNailsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045B37A72284A1CF007D128B;
+			productRefGroup = 045B37B12284A1CF007D128B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045B37AF2284A1CF007D128B /* MyNailsApp */,
+				045B37C32284A1D0007D128B /* MyNailsAppTests */,
+				045B37CE2284A1D0007D128B /* MyNailsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045B37AE2284A1CF007D128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B37BE2284A1D0007D128B /* LaunchScreen.storyboard in Resources */,
+				045B37BB2284A1D0007D128B /* Assets.xcassets in Resources */,
+				045B37B92284A1CF007D128B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37C22284A1D0007D128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37CD2284A1D0007D128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045B37AC2284A1CF007D128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B37B62284A1CF007D128B /* ViewController.swift in Sources */,
+				045B37B42284A1CF007D128B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37C02284A1D0007D128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B37C92284A1D0007D128B /* MyNailsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045B37CB2284A1D0007D128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B37D42284A1D0007D128B /* MyNailsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045B37C62284A1D0007D128B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045B37AF2284A1CF007D128B /* MyNailsApp */;
+			targetProxy = 045B37C52284A1D0007D128B /* PBXContainerItemProxy */;
+		};
+		045B37D12284A1D0007D128B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045B37AF2284A1CF007D128B /* MyNailsApp */;
+			targetProxy = 045B37D02284A1D0007D128B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045B37B72284A1CF007D128B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B37B82284A1CF007D128B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045B37BC2284A1D0007D128B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B37BD2284A1D0007D128B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045B37D62284A1D0007D128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045B37D72284A1D0007D128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045B37D92284A1D0007D128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045B37DA2284A1D0007D128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		045B37DC2284A1D0007D128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNailsApp.app/MyNailsApp";
+			};
+			name = Debug;
+		};
+		045B37DD2284A1D0007D128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNailsApp.app/MyNailsApp";
+			};
+			name = Release;
+		};
+		045B37DF2284A1D0007D128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNailsApp;
+			};
+			name = Debug;
+		};
+		045B37E02284A1D0007D128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyNailsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.MyNailsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNailsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045B37AB2284A1CF007D128B /* Build configuration list for PBXProject "MyNailsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B37D62284A1D0007D128B /* Debug */,
+				045B37D72284A1D0007D128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B37D82284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B37D92284A1D0007D128B /* Debug */,
+				045B37DA2284A1D0007D128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B37DB2284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B37DC2284A1D0007D128B /* Debug */,
+				045B37DD2284A1D0007D128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B37DE2284A1D0007D128B /* Build configuration list for PBXNativeTarget "MyNailsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B37DF2284A1D0007D128B /* Debug */,
+				045B37E02284A1D0007D128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045B37A82284A1CF007D128B /* Project object */;
+}
