@@ -1,0 +1,6 @@
+framework module Pods_MyNailsApp {
+  umbrella header "Pods-MyNailsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

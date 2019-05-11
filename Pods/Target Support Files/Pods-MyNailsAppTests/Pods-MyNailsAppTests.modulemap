@@ -1,0 +1,6 @@
+framework module Pods_MyNailsAppTests {
+  umbrella header "Pods-MyNailsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
